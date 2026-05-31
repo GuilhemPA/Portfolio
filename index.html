@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio - Guilhem Parent</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<nav>
+    <a href="#profil"><i class="fas fa-user"></i> Profil</a>
+    <a href="#formation"><i class="fas fa-graduation-cap"></i> Formation</a>
+    <a href="#competences"><i class="fas fa-layer-group"></i> Compétences</a>
+    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+</nav>
+
+<main>
+    <section id="profil" class="profil-container">
+        <div class="profil-image">
+            <img src="images/profil.png" alt="Guilhem Parent" id="photo-profil">
+        </div>
+        <div class="profil-content">
+            <h1 id="nom">Guilhem Parent</h1>
+            <p class="subtitle">Étudiant en BUT Informatique</p>
+            <div class="content">
+                <p id="situation-actuelle">Actuellement étudiant en 1ère année de BUT Informatique à l'IUT de Lannion, je suis passionné par le développement logiciel et doté de compétences en programmation (Python, C, Java) et développement web.</p>
+                <p id="objectifs"><strong>Objectif :</strong> À la recherche d'un stage de 8 à 12 semaines en informatique pour mettre en pratique mes connaissances et développer de nouvelles compétences en entreprise.</p>
+                
+                <div class="soft-skills">
+                    <h3><i class="fas fa-star"></i> Soft Skills & Engagements</h3>
+                    <p>Doté d'une forte capacité d'autonomie, de gestion du temps et d'esprit d'équipe. Je suis également engagé dans la pratique de l'Agility canin en club depuis 9 ans, évoluant à un niveau national (3x Championnat de France Junior, Finale de la Coupe de France). Cette passion me demande rigueur, persévérance et un investissement sans faille sur le long terme.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="formation">
+        <h2><i class="fas fa-university"></i> Formation & Diplômes</h2>
+        <div class="content">
+            <ul id="liste-diplomes">
+                <li><strong>2025 - Présent :</strong> BUT Informatique - IUT de Lannion</li>
+                <li><strong>2022 - 2025 :</strong> Baccalauréat Général (Spécialités NSI et Mathématiques, option Maths Expertes) - Lycée Jean XXIII</li>
+            </ul>
+            <div class="liens-utiles">
+                <a href="https://iut-lannion.univ-rennes.fr/" target="_blank"><i class="fas fa-external-link-alt"></i> Site de l'IUT de Lannion</a>
+                <a href="https://www.enseignementsup-recherche.gouv.fr/fr/le-bachelor-universitaire-de-technologie-but-46406" target="_blank"><i class="fas fa-info-circle"></i> Programme national du BUT</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences">
+        <h2><i class="fas fa-cogs"></i> Compétences</h2>
+        <div id="grid-competences" class="grid">
+            
+            <div class="card">
+                <h3>C1 : Réaliser un développement d'application</h3>
+                <img src="images/sae11.png" alt="Aperçu du jeu Sokoban en C" class="competence-img">
+                <div class="rubrique"><span>Mes traces :</span> SAE 1.01 : Développement complet d'un jeu Sokoban en C.</div>
+                <div class="rubrique"><span>Mes réussites :</span> Développement intégral du jeu réalisé en autonomie totale.</div>
+                <div class="rubrique"><span>Mes échecs et moyens pour réussir :</span> Débuts difficiles liés à la découverte du C et au manque de temps. Compensé par un fort investissement personnel (2-3h par soir).</div>
+                <div class="rubrique"><span>L'adaptation à d'autres situations :</span> Aptitude à coder sur divers environnements et à m'adapter à d'autres langages (Java, Bash, PHP).</div>
+                <div class="rubrique"><span>Mon autoévaluation :</span> 17/20 - Niveau très satisfaisant.</div>
+            </div>
+
+            <div class="card">
+                <h3>C2 : Optimiser des applications informatiques</h3>
+                <img src="images/OptiSokoban.png" alt="Aperçu de l'optimisation" class="competence-img">
+                <div class="rubrique"><span>Mes traces :</span> SAE 1.02 : Optimisation du Sokoban (création d'un script de résolution automatique).</div>
+                <div class="rubrique"><span>Mes réussites :</span> Réalisation en binôme où j'ai pris en charge la majorité des algorithmes complexes.</div>
+                <div class="rubrique"><span>Mes échecs et moyens pour réussir :</span> Complexité liée aux très nombreuses configurations à anticiper. Nécessité d'une réflexion très poussée sur l'optimisation.</div>
+                <div class="rubrique"><span>L'adaptation à d'autres situations :</span> Compétence applicable à l'optimisation d'algorithmes complexes en C ou Java.</div>
+                <div class="rubrique"><span>Mon autoévaluation :</span> 12/20 - Résultat correct compte tenu de la forte difficulté technique de cette SAE.</div>
+            </div>
+
+            <div class="card">
+                <h3>C3 : Administrer des systèmes informatiques communicants complexes</h3>
+                <img src="images/Docker.avif" alt="Aperçu Docker et scripts" class="competence-img">
+                <div class="rubrique"><span>Mes traces :</span> SAE 1.03 : Utilisation de Docker et création de scripts de transformation de documents (Bash/PHP).</div>
+                <div class="rubrique"><span>Mes réussites :</span> Gestion quasi-autonome du projet suite à l'absence d'un membre. Rendu d'un outil fonctionnel et sans bug.</div>
+                <div class="rubrique"><span>Mes échecs et moyens pour réussir :</span> Délais extrêmement courts couplés à la difficulté de maîtriser PHP et Bash à effectif réduit.</div>
+                <div class="rubrique"><span>L'adaptation à d'autres situations :</span> Capacité à collaborer sur des transformations de données et à utiliser des outils de conteneurisation comme Docker.</div>
+                <div class="rubrique"><span>Mon autoévaluation :</span> 15/20 - Compétence solide acquise grâce à une prise de responsabilité importante.</div>
+            </div>
+
+            <div class="card">
+                <h3>C4 : Gérer des données de l'information</h3>
+                <img src="images/bdd.jpg" alt="Aperçu de la base de données" class="competence-img">
+                <div class="rubrique"><span>Mes traces :</span> SAE 1.04 : Création et gestion d'une base de données.</div>
+                <div class="rubrique"><span>Mes réussites :</span> Rédaction partielle des scripts de création et réalisation de bons rendus intermédiaires.</div>
+                <div class="rubrique"><span>Mes échecs et moyens pour réussir :</span> Difficultés rencontrées sur l'ordre d'exécution lors de la création de la base et erreurs sur la structure finale.</div>
+                <div class="rubrique"><span>L'adaptation à d'autres situations :</span> Connaissances transférables à l'administration globale de bases de données.</div>
+                <div class="rubrique"><span>Mon autoévaluation :</span> 8/20 - Compétence en cours d'acquisition qui nécessite d'être consolidée.</div>
+            </div>
+
+            <div class="card">
+                <h3>C5 : Conduire un projet</h3>
+                <img src="images/Site_Suede.png" alt="Aperçu du site Web Touristique Suède" class="competence-img">
+                <div class="rubrique"><span>Mes traces :</span> SAE 1.05 : Conception d'une page Web pour un site touristique sur la Suède.</div>
+                <div class="rubrique"><span>Mes réussites :</span> Réalisation complète d'une page web au sein d'un travail d'équipe.</div>
+                <div class="rubrique"><span>Mes échecs et moyens pour réussir :</span> Difficultés techniques avec le CSS, surmontées grâce à la communication et l'entraide de mes coéquipiers.</div>
+                <div class="rubrique"><span>L'adaptation à d'autres situations :</span> Capacité à m'intégrer dans un projet web et à concevoir n'importe quelle page HTML/CSS.</div>
+                <div class="rubrique"><span>Mon autoévaluation :</span> 13/20 - Niveau satisfaisant.</div>
+            </div>
+
+            <div class="card">
+                <h3>C6 : Travailler dans une équipe informatique</h3>
+                <img src="images/Economie.webp" alt="Aperçu du travail d'équipe" class="competence-img">
+                <div class="rubrique"><span>Mes traces :</span> SAE 1.06 : Découverte de l'environnement économique et écologique.</div>
+                <div class="rubrique"><span>Mes réussites :</span> Conception de diaporamas en équipe et présentations orales maîtrisées.</div>
+                <div class="rubrique"><span>Mes échecs et moyens pour réussir :</span> Aucune difficulté majeure rencontrée sur ce projet.</div>
+                <div class="rubrique"><span>L'adaptation à d'autres situations :</span> Facilité à rédiger des rapports, des études et à présenter des sujets variés en contexte professionnel.</div>
+                <div class="rubrique"><span>Mon autoévaluation :</span> 15/20 - Bon niveau d'aisance et de compréhension.</div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<footer id="contact">
+    <div class="footer-container">
+        <div class="contact-info">
+            <a href="tel:+33638461202"><i class="fas fa-phone"></i> 06 38 46 12 02</a>
+            <a href="mailto:guilhem.parent1505@gmail.com"><i class="fas fa-envelope"></i> guilhem.parent1505@gmail.com</a>
+            <a href="https://www.linkedin.com/in/guilhem-parent/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/GuilhemPA" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+        <div class="cv-download">
+            <a href="cv_guilhem_parent.pdf" target="_blank" class="highlight"><i class="fas fa-file-pdf"></i> Télécharger mon CV</a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
